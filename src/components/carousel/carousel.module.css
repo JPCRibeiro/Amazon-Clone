@@ -63,7 +63,7 @@
   width: 34px;
   height: 52px;
   outline: 0;
-  background-image: url(../../../assets/slide.png);
+  background-image: url(../../assets/slide.png);
   background-position: 0 0;
   background-repeat: no-repeat;
 }
@@ -107,7 +107,7 @@
   width: 34px;
   height: 52px;
   outline: 0;
-  background-image: url(../../../assets/slide.png);
+  background-image: url(../../assets/slide.png);
   background-position: -34px 0;
   background-repeat: no-repeat;
 }

@@ -3,7 +3,7 @@ import Link from "next/link";
 import styles from "./contentPage.module.css";
 import Carousel from "../carousel/carousel";
 import Slider from "../slider/slider.js";
-import { slider1Images, slider2Images, slider3Images } from "../../sliderData";
+import { slider1Images, slider2Images, slider3Images } from "../../lib/sliderData";
 
 export default function ContentPage() {
   return (

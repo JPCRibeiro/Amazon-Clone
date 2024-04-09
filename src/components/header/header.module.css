@@ -55,7 +55,7 @@
   width: 97px;
   height: 30px;
   display: flex;
-  background-image: url(../../../assets/icons.png);
+  background-image: url(../../assets/icons.png);
   background-repeat: repeat-x;
 }
 
@@ -92,7 +92,7 @@
 
 .location-link div:first-child {
   background-position: -71px -378px;
-  background-image: url(../../../assets/icons.png);
+  background-image: url(../../assets/icons.png);
   background-repeat: repeat-x;
   width: 15px;
   height: 18px;
@@ -202,7 +202,7 @@
   height: 0;
   font-size: 0;
   line-height: 0;
-  background-image: url(../../../assets/icons.png);
+  background-image: url(../../assets/icons.png);
   background-position: 0 1000px;
   background-repeat: repeat-x;
 }
@@ -281,7 +281,7 @@
 }
 
 .search-submit span {
-  background-image: url(../../../assets/icons.png);
+  background-image: url(../../assets/icons.png);
   background-repeat: repeat-x;
   color: #111;
   display: flex;
@@ -374,7 +374,7 @@
   height: 0;
   font-size: 0;
   line-height: 0;
-  background-image: url(../../../assets/icons.png);
+  background-image: url(../../assets/icons.png);
   background-repeat: repeat-x;
   background-position: 0 1000px;
   border-top-color: #a7acb2;
@@ -460,7 +460,7 @@
   background-position: -10px -340px;
   width: 38px;
   height: 26px;
-  background-image: url(../../../assets/icons.png);
+  background-image: url(../../assets/icons.png);
   background-repeat: repeat-x;
 }
 
@@ -510,7 +510,7 @@
   width: 17px;
   height: 14px;
   background-position: -172px -255px;
-  background-image: url(../../../assets/icons.png);
+  background-image: url(../../assets/icons.png);
 }
 
 .nav-left-bottom a span {
@@ -564,7 +564,7 @@
   margin: 0 0 2px 5px;
   background-position: 0 1000px;
   background-repeat: repeat-x;
-  background-image: url(../../../assets/icons.png);
+  background-image: url(../../assets/icons.png);
 }
 
 @media screen and (max-width: 1000px) {

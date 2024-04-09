@@ -137,7 +137,7 @@
   width: 13px;
   margin-top: -11px;
   background-size: 132px 235px;
-  background-image: url(../../../assets/slide2.png);
+  background-image: url(../../assets/slide2.png);
 }
 
 .slider-arrow-right {
@@ -167,5 +167,5 @@
   height: 22px;
   width: 13px;
   margin-top: -11px;
-  background-image: url(../../../assets/slide2.png);
+  background-image: url(../../assets/slide2.png);
 }
