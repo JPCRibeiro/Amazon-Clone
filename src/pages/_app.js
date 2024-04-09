@@ -1,13 +1,17 @@
 import "@/globals.css";
 import Header from "./components/header/header";
-import Carousel from "./components/carousel/carousel";
+import Footer from "./components/footer/footer";
+import ContentPage from "./components/contentPage/contentPage";
+import LoginRequest from "./components/loginRequest/loginRequest";
 
 export default function App({ Component }) {
   return (
     <>
-      <Header />
-      <Carousel/>
       <Component/>
+      <Header />
+      <ContentPage/>
+      <LoginRequest/>
+      <Footer />
     </>
   )
 }

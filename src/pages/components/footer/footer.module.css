@@ -1,0 +1,177 @@
+.footer {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  background-color: #232F3E;
+  min-width: 1000px;
+  position: relative;
+  margin-top: auto;
+}
+
+.back-to-top {
+  margin-bottom: 40px;
+  background-color: rgb(55, 71, 90);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  font-family: 'AmazonFont-Rg';
+}
+
+.back-to-top:hover {
+  background-color: #485769;
+  cursor: pointer;
+}
+
+.back-to-top span {
+  color: #fff;
+  display: block;
+  text-align: center;
+  padding: 15px 0;
+  line-height: 19px;
+  font-size: 13px;
+}
+
+.footer-accessiblity {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: table;
+}
+
+.footer-accessiblity > div {
+  display: table-row;
+}
+
+.link-col {
+  display: table-cell;
+  padding: 0 10px;
+  line-height: 105%;
+} 
+
+.link-col h2 {
+  color: #fff;
+  font-size: 16px;
+  margin: 6px 0 14px 0;
+  white-space: nowrap;
+}
+
+.link-col li {
+  margin: 0 0 10px;
+  color: #ddd;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.link-col li:hover {
+  text-decoration: underline;
+}
+
+.space-inner {
+  display: table-cell;
+  padding: 0 10px;
+  width: 10%;
+}
+
+.footer-line {
+  border-top: 1px solid #3a4553;
+  margin-top: 40px;
+}
+
+.footer-logo {
+  text-align: center;
+  max-width: 1000px;
+  margin: 30px auto 15px;
+  background-position: -10px -90px;
+  width: 76px;
+  height: 23px;
+  background-repeat: repeat-x;
+  background-image: url(../../../assets/icons.png);
+}
+
+.footer-outro {
+  font-size: 12px;
+  margin: 10px auto;
+  text-align: center;
+  max-width: 1000px;
+  color: #DDD;
+  line-height: 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-outro ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 0 0 18px;
+}
+
+.footer-outro ul li:first-child {
+  border-left: 0;
+}
+
+.footer-outro ul li {
+  border-left: 1px solid #999;
+  padding: 0 .6em;
+  cursor: pointer;
+}
+
+.footer-outro ul li:hover, .footer-outro > div:hover {
+  text-decoration: underline;
+}
+
+.footer-outro > div {
+  margin: 0 0 0 18px;
+  padding: 0 .6em;
+  cursor: pointer;
+  width: fit-content;
+}
+
+.footer-copyright {
+  font-size: 12px;
+  background-color: #131A22;
+  max-width: 100%;
+  margin: 0;
+  padding: 10px 0 30px;
+  text-align: center;
+  color: #999;
+  line-height: 18px;
+}
+
+.dif-color {
+  color: #DDD;
+}
+
+.dif-color li {
+  cursor: pointer;
+}
+
+.dif-color li:hover {
+  text-decoration: underline;
+}
+
+.footer-copyright ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 0 0 18px;
+}
+
+.footer-copyright ul li:first-child {
+  border-left: 0;
+}
+  
+.footer-copyright ul li {
+  border-left: 1px solid #999;
+  padding: 0 .6em;
+}
+
+.footer-copyright ul li span {
+  padding: 0 .6em;
+  cursor: pointer;
+}
+
+.footer-copyright ul li span:hover {
+  text-decoration: underline;
+}

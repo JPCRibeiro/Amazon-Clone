@@ -1,0 +1,296 @@
+.page-content {
+  margin: 0 auto;
+  max-width: none;
+  min-width: 1000px;
+  overflow: hidden;
+  width: 100%;
+}
+.shop-content {
+  padding: 0 10px 0;
+  position: relative;
+  margin-bottom: 0;
+}
+
+.shop-content > div:nth-child(1) {
+  max-width: 1480px;
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 20px 0;
+  display: flex;
+  flex-flow: row wrap;
+  font-size: 13px !important;
+  line-height: 19px !important;
+}
+
+.shop-card {
+  display: block;
+  height: 420px;
+  min-height: 420px;
+  -webkit-flex: 1 0 290px;
+  flex: 1 0 290px;
+  padding-left: 10px;
+  padding-right: 10px;
+  min-width: 290px;
+}
+
+.card-layout {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  height: 100%;
+  position: relative;
+  margin-bottom: 0;
+  margin-top: 0;
+  overflow: hidden;
+  padding: 20px 0 15px 0;
+}
+
+.card-header {
+  padding: 0 20px;
+  margin-bottom: 10px;
+}
+
+.card-header h2 {
+  max-height: 54.6px;
+  font-size: 21px !important;
+  line-height: 27.3px !important;
+}
+
+.card-layout a {
+  color: #0893ab;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.card-layout a div:nth-child(1) {
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  height: 275px;
+  margin-bottom: 44px;
+  padding: 0 20px;
+}
+
+.card-layout a div:nth-child(1) div {
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.card-layout a div:nth-child(1) div img {
+  margin: auto;
+  position: absolute;
+  height: 100%;
+  left: -9999px !important;
+  max-width: none;
+  right: -9999px !important;
+  width: -moz-fit-content;
+  width: fit-content !important;
+}
+
+.card-layout a div:nth-child(2) {
+  padding: 0 20px;
+  margin-bottom: 20px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.card-layout a div:nth-child(2) > span {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  line-height: 1.3em !important;
+  max-height: 1.3em;
+}
+
+.card-layout a div:nth-child(2) > span span:nth-child(1) {
+  position: absolute !important;
+  left: 0 !important;
+  bottom: -1px !important;
+  z-index: -1 !important;
+  opacity: 0;
+  display: inline-block;
+  width: 100%;
+  white-space: normal;
+}
+
+.card-layout-dif {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  height: 100%;
+  position: relative;
+  margin-bottom: 0;
+  margin-top: 0;
+  overflow: hidden;
+  padding: 20px 0 15px 0;
+}
+
+.card-layout-dif > div:nth-child(2) {
+  flex-grow: 1;
+  height: 275px;
+  margin-bottom: 44px;
+  padding: 0 20px;
+}
+
+.card-layout-dif > div:nth-child(2) > div {
+  height: 50%;
+  overflow: hidden;
+}
+
+.card-layout-dif > div:nth-child(2) > div:nth-child(1) {
+  margin-bottom: 8px !important;
+}
+
+.card-layout-dif > div:nth-child(2) div > div {
+  display: inline-block;
+  height: 100%;
+  margin: 0;
+  padding: 0 0 36px;
+  position: relative;
+  width: 47.5%;
+}
+.custom-image {
+  height: 276px;
+}
+.card-layout-dif > div:nth-child(2) div > div:nth-child(1) {
+  float: left;
+}
+
+.card-layout-dif > div:nth-child(2) div > div:nth-child(2) {
+  float: right;
+}
+
+.card-link-dif {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.card-link-dif > div:nth-child(1) {
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.card-link-dif img {
+  height: 100%;
+  left: -9999px !important;
+  width: auto !important;
+  max-width: none;
+  right: -9999px !important;
+  margin: auto;
+  position: absolute;
+}
+
+.card-link-dif > div:nth-child(2) {
+  height: 36px;
+  display: flex;
+}
+
+.card-link-dif span {
+  font-size: 12px !important;
+  line-height: 18px !important;
+  color: #0F1111 !important;
+}
+
+.card-layout-dif > div:nth-child(3) {
+  padding: 0 20px;
+  margin-bottom: 20px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.card-layout-dif > div:nth-child(3) a {
+  color: #0893ab;
+}
+
+.sign-in-box {
+  flex: 1 0 0;
+  margin-bottom: 10px;
+  height: 150px;
+  max-height: 150px;
+  min-height: 150px;
+}
+
+.sign-in-box > div {
+  background: #fff;
+  height: 100%;
+  position: relative;
+  margin-bottom: 0;
+  margin-top: 0;
+  overflow: hidden;
+  padding-top: 20px;
+  padding: 20px 0 15px 0;
+}
+
+.sign-in-box > div > div:nth-child(2) {
+  padding: 0 20px 56px 20px;
+  margin-bottom: 0;
+  position: relative;
+}
+
+.sign-in-box > div > div:nth-child(2) span {
+  border-radius: 8px;
+  box-shadow: 0 2px 5px 0 rgba(213,217,217,.5);
+  width: 100% !important;
+  background: #FFD814;
+  border-color: #FCD200;
+  border-style: solid;
+  border-width: 1px;
+  cursor: pointer;
+  display: inline-block;
+  padding: 0;
+  text-align: center;
+  text-decoration: none !important;
+  vertical-align: middle;
+  margin-top: 4px !important;
+}
+
+.sign-in-box > div > div:nth-child(2) span:hover {
+  background: #F7CA00;
+  border-color: #F2C200;
+}
+
+.sign-in-box > div > div:nth-child(2) span a {
+  color: #0F1111;
+  background-color: transparent;
+  border: 0;
+  display: block;
+  font-size: 13px;
+  line-height: 29px;
+  margin: 0;
+  outline: 0;
+  padding: 0 10px 0 11px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.shop-content > div:nth-child(2) {
+  max-width: 1480px;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.shop-content > div:nth-child(2) hr {
+  min-height: 20px;
+  flex: 1 0 100%;
+  border: none;
+}
+
+.shop-content .shop-card a {
+  font-size: 13px !important;
+}
+
+@media screen and (max-width: 1239px) {
+  .shop-content .shop-card:nth-child(4) {
+    display: none;
+  }
+}
