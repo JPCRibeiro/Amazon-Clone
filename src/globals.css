@@ -105,3 +105,41 @@ a {
     color-scheme: dark;
   }
 }
+
+@font-face {
+  src: url('./fonts/AmazonEmber_Rg.ttf');
+  font-family: 'AmazonFont-Rg';
+}
+
+@font-face {
+  src: url('./fonts/AmazonEmber_Bd.ttf');
+  font-family: 'AmazonFont-Bd';
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background: #E3E6E6;
+  font-family: 'AmazonFont-Rg';
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+h2 {
+  font-family: 'AmazonFont-Bd';
+}
+
+.font-bold {
+  font-family: 'AmazonFont-Bd';
+}

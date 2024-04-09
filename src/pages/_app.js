@@ -1,5 +1,11 @@
-import "@/styles/globals.css";
+import "@/globals.css";
+import Header from "./components/header/header";
 
-export default function App({ Component, pageProps }) {
-  return <Component {...pageProps} />;
+export default function App({ Component }) {
+  return (
+    <>
+      <Header />
+      <Component />
+    </>
+  )
 }
