@@ -1,6 +1,5 @@
 import Link from "next/link";
 import styles from "./slider.module.css";
-import Image from "next/image";
 import { useState, useEffect, useRef } from "react";
 
 export default function Slider({ title, images }) {

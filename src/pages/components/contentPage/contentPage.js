@@ -1,10 +1,9 @@
 "use client"
 import Link from "next/link";
 import styles from "./contentPage.module.css";
-import Image from "next/image";
 import Carousel from "../carousel/carousel";
 import Slider from "../slider/slider.js";
-import { slider1Images, slider2Images, slider3Images } from "../../../sliderData";
+import { slider1Images, slider2Images, slider3Images } from "../../sliderData";
 
 export default function ContentPage() {
   return (
@@ -22,7 +21,7 @@ export default function ContentPage() {
                   <div>
                     <Link href="#" className={styles["card-link-dif"]}>
                       <div>
-                        <img src="./cards_imgs/echo-pop.jpg" alt="echo-pop" fill/>
+                        <img src="./cards_imgs/echo-pop.jpg" alt="echo-pop"/>
                       </div>
                       <div>
                         <span>Echo Pop</span>
@@ -32,7 +31,7 @@ export default function ContentPage() {
                   <div>
                     <Link href="#" className={styles["card-link-dif"]}>
                       <div>
-                        <img src="./cards_imgs/echo-dot.jpg" alt="echo-dot" fill/>
+                        <img src="./cards_imgs/echo-dot.jpg" alt="echo-dot"/>
                       </div>
                       <div>
                         <span>Echo Dot</span>
@@ -44,7 +43,7 @@ export default function ContentPage() {
                   <div>
                     <Link href="#" className={styles["card-link-dif"]}>
                       <div>
-                        <img src="./cards_imgs/fire-tv-stick.jpg" alt="fire-tv-stick" fill/>
+                        <img src="./cards_imgs/fire-tv-stick.jpg" alt="fire-tv-stick"/>
                       </div>
                       <div>
                         <span>Fire TV Stick</span>
@@ -54,7 +53,7 @@ export default function ContentPage() {
                   <div>
                     <Link href="#" className={styles["card-link-dif"]}>
                       <div>
-                        <img src="./cards_imgs/lampada.jpg" alt="lampada" fill/>
+                        <img src="./cards_imgs/lampada.jpg" alt="lampada"/>
                       </div>
                       <div>
                         <span>Lâmpada Inteligente</span>
@@ -78,7 +77,7 @@ export default function ContentPage() {
               <Link href="#" className={styles["card-link"]}>
                 <div>
                   <div>
-                    <img src="./cards_imgs/jbl.jpg" alt="jbl" fill/>
+                    <img src="./cards_imgs/jbl.jpg" alt="jbl"/>
                   </div>
                 </div>
                 <div>
@@ -98,7 +97,7 @@ export default function ContentPage() {
               <Link href="#" className={styles["card-link"]}>
                 <div>
                   <div>
-                    <img src="./cards_imgs/audible.jpg" alt="audible" fill/>
+                    <img src="./cards_imgs/audible.jpg" alt="audible"/>
                   </div>
                 </div>
                 <div>
@@ -140,7 +139,7 @@ export default function ContentPage() {
               <Link href="#" className={styles["card-link"]}>
                 <div>
                   <div>
-                    <img src="./cards_imgs/academia.jpg" alt="academia" fill/>
+                    <img src="./cards_imgs/academia.jpg" alt="academia"/>
                   </div>
                 </div>
                 <div>
@@ -160,7 +159,7 @@ export default function ContentPage() {
               <Link href="#" className={styles["card-link"]}>
                 <div>
                   <div>
-                    <img src="./cards_imgs/livros.jpg" alt="livros" fill/>
+                    <img src="./cards_imgs/livros.jpg" alt="livros"/>
                   </div>
                 </div>
                 <div>
@@ -182,7 +181,7 @@ export default function ContentPage() {
                   <div>
                     <Link href="#" className={styles["card-link-dif"]}>
                       <div>
-                        <img src="./cards_imgs/gato.jpg" alt="gatos" fill/>
+                        <img src="./cards_imgs/gato.jpg" alt="gatos"/>
                       </div>
                       <div>
                         <span>Gatos</span>
@@ -192,7 +191,7 @@ export default function ContentPage() {
                   <div>
                     <Link href="#" className={styles["card-link-dif"]}>
                       <div>
-                        <img src="./cards_imgs/caes.jpg" alt="cães" fill/>
+                        <img src="./cards_imgs/caes.jpg" alt="cães"/>
                       </div>
                       <div>
                         <span>Cães</span>
@@ -204,7 +203,7 @@ export default function ContentPage() {
                   <div>
                     <Link href="#" className={styles["card-link-dif"]}>
                       <div>
-                        <img src="./cards_imgs/rato.jpg" alt="ratos" fill/>
+                        <img src="./cards_imgs/rato.jpg" alt="ratos"/>
                       </div>
                       <div>
                         <span>Roedores</span>
@@ -214,7 +213,7 @@ export default function ContentPage() {
                   <div>
                     <Link href="#" className={styles["card-link-dif"]}>
                       <div>
-                        <img src="./cards_imgs/peixes.jpg" alt="peixes" fill/>
+                        <img src="./cards_imgs/peixes.jpg" alt="peixes"/>
                       </div>
                       <div>
                         <span>Peixes</span>
@@ -238,7 +237,7 @@ export default function ContentPage() {
               <Link href="#" className={styles["card-link"]}>
                 <div>
                   <div>
-                    <img src="./cards_imgs/fallout.jpg" alt="fallout" fill/>
+                    <img src="./cards_imgs/fallout.jpg" alt="fallout"/>
                   </div>
                 </div>
                 <div>
