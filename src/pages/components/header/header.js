@@ -13,7 +13,7 @@ export default function Header() {
   };
 
   return (
-    <div className={styles.header}>
+    <header className={styles.header}>
       <div>
         <div className={styles["nav-top"]}>
           <div className={styles["nav-left"]}>
@@ -163,6 +163,6 @@ export default function Header() {
           <div className={styles["nav-right-bottom"]}></div>
         </div>
       </div>
-    </div>
+    </header>
   );
 }
