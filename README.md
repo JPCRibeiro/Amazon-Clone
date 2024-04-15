@@ -7,7 +7,7 @@
 </h1>
 
 <div align="center">
-  Site realizado com <img align="center" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/next/next-original.svg">
+  Site realizado com <img align="center" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg">
 </div>
 
 <div align="center">
