@@ -1,5 +1,5 @@
 <div align='center'>
-  <a align='center' href="https://jpcribeiro.github.io/Amazon-Clone/" target="blank"><img align="center" src="public/amazon_logo" height="100" /></a>
+  <a align='center' href="https://jpcribeiro.github.io/Amazon-Clone/" target="blank"><img align="center" src="public/amazon_logo.svg" height="100" /></a>
 </div>
 
 <h1 align='center'>
