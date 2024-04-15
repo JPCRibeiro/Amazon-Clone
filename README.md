@@ -1,5 +1,5 @@
 <div align='center'>
-  <a align='center' href="https://jpcribeiro.github.io/Amazon-Clone/" target="blank"><img align="center" src="public/amazon-logo" height="100" /></a>
+  <a align='center' href="https://jpcribeiro.github.io/Amazon-Clone/" target="blank"><img align="center" src="public/favicon.ico" height="100" /></a>
 </div>
 
 <h1 align='center'>
@@ -11,5 +11,5 @@
 </div>
 
 <div align="center">
-  Projeto clone da homepage da Amazon, feito com máximo de semelhança com a página principal da Amazon.com.br
+  Utilizando NextJS, recriei a homepage da Amazon, feito com o máximo de semelhança com a página principal da Amazon.com.br
 </div>
