@@ -1,5 +1,5 @@
 <div align='center'>
-  <a align='center' href="https://jpcribeiro.github.io/Amazon-Clone/" target="blank"><img align="center" src="public/amazon_logo.png" height="100" /></a>
+  <a align='center' href="https://jpcribeiro-amazon.vercel.app/" target="blank"><img align="center" src="public/amazon_logo.png" height="100" /></a>
 </div>
 
 <h1 align='center'>
@@ -15,5 +15,5 @@
 </div>
 
 <div align="center">
-  Acesse o <a align='center' href="https://jpcribeiro.github.io/Amazon-Clone/" target="_blank">Projeto</a>
+  Acesse o <a align='center' href="https://jpcribeiro-amazon.vercel.app/" target="_blank">Projeto</a>
 </div>
